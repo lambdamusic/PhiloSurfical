@@ -1,0 +1,34 @@
+#cluetip {
+  z-index: 1001;
+  position: relative;
+}
+#cluetip-outer {
+  position: relative;
+  margin: 0;
+  background: AntiqueWhite;
+}
+h3#cluetip-title {
+  margin: 0 0 5px;
+  padding: 8px 10px 4px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: DarkSeaGreen;
+  color: black;
+}
+#cluetip-inner {
+  padding: 10px;
+}
+
+#cluetip-inner p {
+  color: black;
+  font-size: 1.5em;
+}
+
+span#cluetip-close { 
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+#cluetip-close img {
+  border: 0;
+}

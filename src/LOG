@@ -1,0 +1,2265 @@
+LispWorks(R): The Common Lisp Programming Environment
+Copyright (C) 1987-2006 LispWorks Ltd.  All rights reserved.
+Version 5.0.2
+Saved by mp4239 as lw-console, at 14 Dec 2007 12:04
+User mp4239 on kmi-lisp03.open.ac.uk
+; Loading text file /usr/lib/LispWorks/lib/5-0-0-0/config/siteinit.lisp
+;  Loading text file /usr/lib/LispWorks/lib/5-0-0-0/private-patches/load.lisp
+
+CL-USER 1 > ; Loading text file /homes/mp4239/PhiloSURFical/load1.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf.lisp
+#P"/homes/mp4239/PhiloSURFical/load1.lisp"
+
+CL-USER 2 > ; Loading text file /homes/mp4239/PhiloSURFical/load2.lisp
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/cffi.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/cffi.asd
+; registering #<SYSTEM CFFI 200B980B> as CFFI
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/utils.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/features.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/cffi-lispworks.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/package.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/libraries.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/early-types.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/types.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/enum.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/strings.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/functions.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cffi-061012/src/foreign-vars.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/md5-1.8.5/md5.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/md5-1.8.5/md5.asd
+; registering #<SYSTEM MD5 21665FCB> as MD5
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/md5-1.8.5/md5.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-base64-3.3.2/cl-base64.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-base64-3.3.2/cl-base64.asd
+; registering #<SYSTEM CL-BASE64 215DC06F> as CL-BASE64
+; registering #<SYSTEM CL-BASE64-TESTS 2009F077> as CL-BASE64-TESTS
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-base64-3.3.2/package.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-base64-3.3.2/encode.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-base64-3.3.2/decode.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/rfc2388/rfc2388.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/rfc2388/rfc2388.asd
+; registering #<SYSTEM :RFC2388 2166A023> as RFC2388
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/rfc2388/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/rfc2388/rfc2388.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/cl-ppcre.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/cl-ppcre.asd
+; registering #<SYSTEM :CL-PPCRE 216316C7> as CL-PPCRE
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/util.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/errors.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/lexer.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/parser.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/regex-class.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/convert.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/optimize.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/closures.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/repetition-closures.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/scanner.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-ppcre-1.3.1/api.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/flexi-streams.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/flexi-streams.asd
+; registering #<SYSTEM :FLEXI-STREAMS 2009EE2F> as FLEXI-STREAMS
+; registering #<SYSTEM :FLEXI-STREAMS-TEST 200910BB> as
+; FLEXI-STREAMS-TEST
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/trivial-gray-streams-2006-09-16/trivial-gray-streams.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/trivial-gray-streams-2006-09-16/trivial-gray-streams.asd
+; registering #<SYSTEM :TRIVIAL-GRAY-STREAMS 2187BE6B> as
+; TRIVIAL-GRAY-STREAMS
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/trivial-gray-streams-2006-09-16/package.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/trivial-gray-streams-2006-09-16/mixin.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/ascii.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/koi8-r.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/iso-8859.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/code-pages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/util.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/external-format.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/in-memory.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/stream.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/lw-binary-stream.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/output.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/input.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/flexi-streams-0.12.0/strings.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/chunga.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/chunga.asd
+; registering #<SYSTEM :CHUNGA 200ED60F> as CHUNGA
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/util.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/read.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/streams.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/input.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/chunga-0.3.1/output.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/url-rewrite.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/url-rewrite.asd
+; registering #<SYSTEM :URL-REWRITE 2198ED9B> as URL-REWRITE
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/primitives.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/util.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/url-rewrite-0.1.1/url-rewrite.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-who-0.11.0/cl-who.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-who-0.11.0/cl-who.asd
+; registering #<SYSTEM :CL-WHO 20090B0B> as CL-WHO
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-who-0.11.0/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-who-0.11.0/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/cl-who-0.11.0/who.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/hunchentoot.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/hunchentoot.asd
+; registering #<SYSTEM :HUNCHENTOOT 218E60FB> as HUNCHENTOOT
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/packages.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/port-lw.ufasl
+; Loading /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/comm-defsys.lisp on demand...
+;; Creating system COMM
+
+;   Loading text file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/comm-pkg.lisp
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/sockets.ufasl
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/ssl-constants.ufasl
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/ssl-foreign-types.ufasl
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/ssl.ufasl
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/load-on-demand/processes/ssl-certs.ufasl
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/patches/comm/0001/0001.ufasl
+;  Loaded public patch COMM 1.1
+
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/patches/comm/0001/0002.ufasl
+;  Loaded public patch COMM 1.2
+
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/patches/comm/0001/0003.ufasl
+;  Loaded public patch COMM 1.3
+
+;   Loading fasl file /usr/lib/LispWorks/lib/5-0-0-0/patches/comm/0001/0004.ufasl
+;  Loaded public patch COMM 1.4
+
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/specials.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/mime-types.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/util.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/log.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/cookie.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/reply.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/request.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/session.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/misc.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/easy-handlers.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/headers.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/unix-lw.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/asdf/asdf-libraries/hunchentoot-0.12.0/server.ufasl
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/ocml/upstream/ocml.asd into
+; #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/ocml.asd
+; registering #<SYSTEM :OCML 21B2BFC7> as OCML
+; registering #<SYSTEM :OCML-PRE-WEBONTO 200A0EFB> as OCML-PRE-WEBONTO
+; registering #<SYSTEM :OCML-POST-WEBONTO 200EDF7B> as OCML-POST-WEBONTO
+; registering #<SYSTEM OCML-TESTS 200DF1D3> as OCML-TESTS
+; loading system definition from
+; /homes/mp4239/PhiloSURFical/ocml/enrico-utilities/upstream/enrico-utilities.asd
+; into #<The ASDF0 package, 0/16 internal, 0/16 external>
+;  Loading text file /homes/mp4239/PhiloSURFical/ocml/enrico-utilities/upstream/enrico-utilities.asd
+; registering #<SYSTEM :ENRICO-UTILITIES 21BAB757> as ENRICO-UTILITIES
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/enrico-utilities/upstream/src/defpackage.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/enrico-utilities/upstream/src/utilities.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/defpackage.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/vars5.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/axioms.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/rules4.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/rels8.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/basic21.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/backwrd21.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/constrs2.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/delete-things.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/describe.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/domain6.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/fc.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/fc-call3.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/funs7.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/io.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/mapping4.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/match3.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/meta.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/namespaces.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/ocml-to-ontolingua2.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/ocml-to-rdfs7.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/owl.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/parser5.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/patches2.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/rete4.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/slot-renaming3.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/tellask4.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/theories5.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/top9.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/wm2.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.ufasl
+Warning: (DEFCLASS TASK) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp.
+Warning: (DEFCLASS EXECUTABLE-TASK) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp.
+Warning: (DEFCLASS PROBLEM-SOLVING-METHOD) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp.
+Initializing OCML......
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/foundation.lisp
+Warning: (DEFCLASS OCML-THING3) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/foundation.lisp.
+Warning: (DEFCLASS OCML-EXPRESSION4) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/foundation.lisp.
+Warning: (DEFCLASS LIST5) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/foundation.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp
+Warning: (DEFCLASS PROCEDURAL-EXPRESSION6) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS TERM7) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS CONSTANT8) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS GROUND-TERM10) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS SENTENCE11) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS BASIC-SENTENCE12) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS QUANTIFIED-SENTENCE13) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS CONNECTED-SENTENCE14) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS ASSERTION15) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS RULE16) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS BACKWARD-RULE18) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS BC-CLAUSE-LIST20) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS BACKWARD-CLAUSE21) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS PROOF-EXPRESSION22) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS META-OBJECT23) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS META-KAPPA-EXPRESSION24) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+Warning: (DEFCLASS META-PROOF-EXPRESSION25) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/meta7.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/sets2.lisp
+Warning: (DEFCLASS SET26) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/sets2.lisp.
+Warning: (DEFCLASS INDIVIDUAL28) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/sets2.lisp.
+Warning: (DEFCLASS SET-AS-LIST29) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/sets2.lisp.
+Warning: (DEFCLASS EMPTY-SET30) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/sets2.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp
+Warning: (DEFCLASS VARIABLE31) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS BOOLEAN32) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+;;;*** Warning in #:G47716: ENV is bound but not referenced
+Warning: (DEFCLASS RELATION33) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS KAPPA-EXPRESSION34) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS UNARY-KAPPA-EXPRESSION35) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS DEFINED-RELATION36) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS UNARY-RELATION37) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS BINARY-RELATION38) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+Warning: (DEFCLASS ORDER-RELATION39) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/rels2.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/strings.lisp
+Warning: (DEFCLASS STRING40) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/strings.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp
+Warning: (DEFCLASS NUMBER42) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS VECTOR44) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS INTEGER45) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS NON-NEGATIVE-INTEGER47) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS POSITIVE-INTEGER49) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS REAL-NUMBER51) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+Warning: (DEFCLASS POSITIVE-REAL-NUMBER53) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/nums.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/list2.lisp
+Warning: (DEFCLASS PAIR54) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/list2.lisp.
+Warning: (DEFCLASS ATOM55) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/list2.lisp.
+Warning: (DEFCLASS NULL56) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/list2.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/infer.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/env.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp
+Warning: (DEFCLASS FUNCTION57) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS DEFINED-FUNCTION58) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS LAMBDA-EXPRESSION60) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS PROCEDURAL-LAMBDA-EXPRESSION61) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS PROCEDURE62) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS DEFINED-PROCEDURE63) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS UNARY-PROCEDURE65) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS UNARY-FUNCTION66) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+Warning: (DEFCLASS BINARY-FUNCTION67) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/funs2.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/frames4.lisp
+Warning: (DEFCLASS CLASS68) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/frames4.lisp.
+Warning: (DEFCLASS INSTANCE70) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/frames4.lisp.
+Warning: (DEFCLASS CLASS-PARTITION72) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/frames4.lisp.
+Warning: (DEFCLASS SLOT73) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/frames4.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp
+Warning: (DEFCLASS TASK) being redefined in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp (previously in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp).
+Warning: (DEFCLASS TASK) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS TASK-TYPE74) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS LEGAL-TASK-GOAL-EXPRESSION75) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS GOAL-SPECIFICATION-TASK76) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS PROBLEM-TYPE77) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS EXECUTABLE-TASK) being redefined in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp (previously in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp).
+Warning: (DEFCLASS EXECUTABLE-TASK) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS COMPOSITE-TASK79) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS PRIMITIVE-TASK80) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS ROLE81) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS LEGAL-POSTCONDITION82) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS PROBLEM-SOLVING-METHOD) being redefined in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp (previously in /homes/mp4239/PhiloSURFical/ocml/upstream/src/control4.lisp).
+Warning: (DEFCLASS PROBLEM-SOLVING-METHOD) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS PRIMITIVE-METHOD84) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS DECOMPOSITION-METHOD85) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS APPLICATION-DOMAIN86) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+Warning: (DEFCLASS APPLICATION) defined more than once in /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/task6.lisp.
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/mapping.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml/upstream/library/basic/acquire.lisp
+#P"/homes/mp4239/PhiloSURFical/load2.lisp"
+
+CL-USER 3 > ; Loading text file /homes/mp4239/PhiloSURFical/load3.lisp
+Warning: (DEFVAR *LOCATION*) being redefined in /homes/mp4239/PhiloSURFical/load3.lisp (previously in /homes/mp4239/PhiloSURFical/load1.lisp).
+;  Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/load.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/load.lisp
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp
+Warning: (DEFCLASS PHILOSURFICAL-ENTITY89) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS CRM-ENTITY91) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS DIMENSION93) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS QUANTITY95) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS PLACE96) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS PRIMITIVE-VALUE98) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS TIME-PRIMITIVE100) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS NUMBER102) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS INTEGER104) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+Warning: (DEFCLASS STRING106) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/top-primitives.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp
+Warning: (DEFCLASS PERSISTENT-ITEM108) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS THING110) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS LEGAL-OBJECT112) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS MAN-MADE-THING114) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PHYSICAL-THING116) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PHYSICAL-OBJECT118) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS BIOLOGICAL-OBJECT120) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PHYSICAL-MAN-MADE-THING122) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS COLLECTION124) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS MAN-MADE-OBJECT126) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS INFORMATION-CARRIER128) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ITEM130) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PHYSICAL-FEATURE132) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS MAN-MADE-FEATURE134) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS SITE136) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ACTOR138) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS INDIVIDUAL140) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PERSON142) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS GROUP144) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS GROUP-OF-PEOPLE146) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS BELIEF-GROUP148) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-SCHOOL150) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS POLITICAL-GROUP151) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS RELIGIOUS-GROUP153) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS LEGAL-BODY155) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ORGANIZATION157) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS POLITICAL-ORGANIZATION159) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ORGANIZATION-UNIT161) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PUBLISHING-HOUSE163) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS NON-PROFIT-ORGANIZATION165) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PROFIT-ORGANIZATION167) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PARTNERSHIP169) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS COMPANY171) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PRIVATE-COMPANY173) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PUBLIC-COMPANY175) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS INDUSTRIAL-ORGANIZATION177) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS GOVERNMENT-ORGANIZATION179) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CIVIL-SERVICE181) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS GOVERNMENT183) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CHARITABLE-ORGANIZATION185) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS LEARNING-CENTRED-ORGANIZATION187) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS R-AND-D-INSTITUTE189) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS R-AND-D-INSTITUTE-WITHIN-LARGER-ORGANIZATION191) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS EDUCATIONAL-ORGANIZATION193) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS R-AND-D-INSTITUTE-WITHIN-EDUCATIONAL-ORGANIZATION195) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS HIGHER-EDUCATIONAL-ORGANIZATION197) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS UNIVERSITY199) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS DISTANCE-TEACHING-UNIVERSITY201) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS SCHOOL203) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS EDUCATIONAL-ORGANIZATION-UNIT205) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ACADEMIC-UNIT206) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS UNIVERSITY-FACULTY208) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ACADEMIC-SUPPORT-UNIT210) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS GEO-POLITICAL-ENTITY212) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CONTINENT214) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CITY216) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CAPITAL-CITY218) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS COUNTRY220) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS REGION222) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CONTACT-POINT224) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS APPELLATION226) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS TITLE228) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS URI230) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS URL231) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS OBJECT-IDENTIFIER233) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ISBN-NUMBER235) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PLACE-APPELLATION237) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS PLACE-NAME239) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS SECTION-DEFINITION241) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS SPATIAL-COORDINATES243) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ADDRESS245) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS TIME-APPELLATION247) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS DATE249) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS CONCEPTUAL-OBJECT-APPELLATION251) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS IDEA-APPELLATION253) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+Warning: (DEFCLASS ACTOR-APPELLATION255) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/persistent-item.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp
+Warning: (DEFCLASS TEMPORAL-ENTITY257) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS CONDITION-STATE259) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PERIOD261) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS INTELLECTUAL-MOVEMENT263) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-MOVEMENT265) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS EVENT267) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS ACTIVITY269) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS BEGINNING-OF-EXISTENCE271) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS END-OF-EXISTENCE273) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS FORMATION275) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS BIRTH277) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS DEATH279) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS DESTRUCTION281) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS DISSOLUTION283) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TRANSFORMATION285) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS EXPERIMENT287) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS MODIFICATION289) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PART-ADDITION291) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PART-REMOVAL293) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS MOVE295) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS JOURNEY297) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PRODUCTION299) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS PUBLICATION-EVENT301) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TRANSFER-OF-CUSTODY303) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS ACQUISITION305) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS ATTRIBUTE-ASSIGNMENT307) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS CONDITION-ASSESSMENT309) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS IDENTIFIER-ASSIGNMENT311) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TYPE-ASSIGNMENT313) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS MEASUREMENT315) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS SOCIAL-ACTIVITY317) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS SOCIAL-GATHERING319) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS CONFERENCE321) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS WORKSHOP323) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS SEMINAR325) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS MEETING327) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS CLOSE-SOCIAL-CONTACT329) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS 2-PERSONS-MEETING331) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS MAIL-EXCHANGE333) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TELEPHONE-CONVERSATION335) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS EDUCATIONAL-ACTIVITY337) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TEACHING339) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS LEARNING341) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS JOINING-A-GROUP343) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS WORKING-FOR-ORGANIZATION345) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS TEACHING-AT-INSTITUTION347) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS LEARNING-AT-INSTITUTION349) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS DISCUSSION351) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+Warning: (DEFCLASS ARGUMENTATION353) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/temporal-entity.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp
+Warning: (DEFCLASS INTELLECTUAL-ACTIVITY355) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS CONCEPTUAL-CREATION357) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS IDEA-CONCEPTION359) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS EXPRESSION-CREATION361) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS IDEA-MODIFICATION363) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS THEORY-REFINEMENT365) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS IDEA-USAGE367) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS THEORY-TRANSPOSITION369) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS STUDY371) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS STUDY-AN-IDEA373) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS STUDY-A-DOCUMENT375) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS VIEW-SUBSCRIPTION377) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS INTERPRETATION379) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS IO-INTERPRETATION381) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS EXPRESSION-INTERPRETATION383) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS EVENT-INTERPRETATION385) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS IDEA-INTERPRETATION387) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS CONCEPT-INTERPRETATION389) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS VIEW-INTERPRETATION391) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS THESIS-INTERPRETATION393) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS THEORY-INTERPRETATION395) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-SYSTEM-INTERPRETATION397) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS SCHOOL-OF-THOUGHT-INTERPRETATION399) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS DISTINCTION-INTERPRETATION401) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS PROBLEM-INTERPRETATION403) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS PROBLEM-AREA-INTERPRETATION405) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS ARGUMENT-INTERPRETATION407) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS METHOD-INTERPRETATION409) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+Warning: (DEFCLASS RHETORICAL-FIGURE-INTERPRETATION411) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/intellectual-activity.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp
+Warning: (DEFCLASS CONCEPTUAL-OBJECT413) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS RIGHT415) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS TYPE417) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS GENDER419) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MATERIAL421) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MEASUREMENT-UNIT423) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS GENRE425) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS LITERARY-GENRE427) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MUSICAL-GENRE429) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PROBLEM-TYPE431) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ROLE433) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SOCIAL-ROLE435) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS TEACHING-ROLE437) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS DEGREE-TYPE439) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ACADEMIC-DEGREE441) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PEDAGOGICAL-FUNCTIONAL-ROLE443) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS TEXTUAL-STRUCTURAL-ROLE445) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS REFERENCE447) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS REPRESENTATIONAL-MEDIUM449) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PAPER-MEDIUM451) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ELECTRONIC-MEDIUM453) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS AUDIO-BASED455) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PROPOSITIONAL-CONTENT457) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS DESIGN-PROPOSITION459) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PRODUCT-PROPOSITION461) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PROCEDURE463) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PIECE-OF-MUSIC465) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMPHONY467) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS DRAMA469) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMBOL471) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SPECIFICATION473) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS NOVEL475) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS POEM477) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PAINTING479) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-WORK481) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS DIALOGUE483) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS TREATISE485) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ESSAY487) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS AUTOBIOGRAPHY489) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MEDITATION491) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS INFORMATION-OBJECT493) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS EXPRESSION495) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SELF-CONTAINED-EXPRESSION497) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS EXPRESSION-FRAGMENT499) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMBOLIC-EXPRESSION501) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS 2D-EXPRESSION503) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS TEXT505) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS UTTERANCE507) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MUSICAL-SCORE509) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS FORMULA511) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMBOL-FIGURE513) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS FILM515) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: Redefining class PAINTING
+Warning: (DEFCLASS PAINTING517) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS CALLIGRAPHY519) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMBOLIC-EXPRESSION-FRAGMENT521) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SENTENCE523) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS WORD525) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MANIFESTATION527) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS REPRESENTATIONAL-FORM529) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SYMBOLIC-FORM531) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ICONIC-FORM533) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MUSICAL-SYMBOL-SEQUENCE535) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS NATURAL-LANGUAGE537) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS ARTIFICIAL-LANGUAGE539) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS STILL-IMAGE541) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS LINE-IMAGE543) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MOTION-IMAGE545) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS WRITTEN-LANGUAGE547) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS SPOKEN-LANGUAGE549) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS MATHEMATICAL-NOTATION551) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+Warning: (DEFCLASS PROGRAMMING-LANGUAGE553) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/conceptual-object.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp
+Warning: (DEFCLASS PUBLICATION555) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS ELECTRONIC-PUBLICATION557) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS COMPOSITE-PUBLICATION559) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS SERIAL-PUBLICATION561) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PERIODICAL-PUBLICATION562) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS JOURNAL563) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS MAGAZINE565) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS NEWSPAPER567) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS NEWSLETTER569) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS DAILY-NEWSPAPER571) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS BOOK573) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PROCEEDINGS575) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS CONFERENCE-PROCEEDINGS577) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS WORKSHOP-PROCEEDINGS579) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS ITEM-IN-A-COMPOSITE-PUBLICATION581) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS BOOK-SECTION-CONTRIBUTION583) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS ARTICLE-IN-A-JOURNAL585) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS JOURNAL-ISSUE587) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PAPER-IN-PROCEEDINGS589) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS NEWS-ITEM591) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PUBLICATION-REFERENCE593) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS WEB-REFERENCE595) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS BOOK-REFERENCE597) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS COMPOSITE-PUBLICATION-REFERENCE599) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS EDITED-BOOK-REFERENCE601) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PROCEEDINGS-REFERENCE603) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS CONFERENCE-PROCEEDINGS-REFERENCE605) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS WORKSHOP-PROCEEDINGS-REFERENCE607) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS REFERENCE-TO-ITEM-IN-A-COMPOSITE-PUBLICATION609) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS BOOK-SECTION-CONTRIBUTION-REFERENCE611) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS ARTICLE-REFERENCE613) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS JOURNAL-ISSUE-REFERENCE615) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS PAPER-IN-PROCEEDINGS-REFERENCE617) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS THESIS-REFERENCE619) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS TECHNICAL-REPORT-REFERENCE621) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+Warning: (DEFCLASS EDITED-BOOK623) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/akt-imported.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp
+Warning: (DEFCLASS TIME-SPECIFICATION625) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS YEAR-IN-TIME627) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS MONTH-IN-TIME628) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS DAY-IN-TIME629) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS HOUR-IN-TIME630) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS MINUTE-IN-TIME631) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS SECOND-IN-TIME632) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS FREQUENCY-OF-OCCURENCE633) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS TIME-POINT635) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS TIME-INTERVAL636) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS DAY637) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS WEEK639) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS MONTH641) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS JANUARY643) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS FEBRUARY645) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS FEBRUARY-IN-LEAP-YEARS647) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS MARCH649) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS APRIL651) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS MAY653) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS JUNE655) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS JULY657) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS AUGUST659) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS SEPTEMBER661) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS OCTOBER663) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS NOVEMBER665) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS DECEMBER667) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS YEAR669) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS TIME-RANGE671) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS DURATION672) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS CALENDAR-DATE674) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+Warning: (DEFCLASS UNIVERSAL-TIME676) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/time-specification.lisp.
+;;;*** Warning in #:G48513: IGNORE1 is bound but not referenced
+;;;*** Warning in #:G48513: IGNORE2 is bound but not referenced
+;;;*** Warning in #:G48513: IGNORE3 is bound but not referenced
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp
+Warning: (DEFCLASS PHILOSOPHICAL-IDEA677) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS VIEW679) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS THESIS681) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS LAW683) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PRINCIPLE685) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SELF-EVIDENT-PRINCIPLE687) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS THEORY689) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-THEORY691) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SCIENTIFIC-THEORY693) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PHILOSOPHICAL-SYSTEM695) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SCHOOL-OF-THOUGHT697) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS CONTEXTUALIZED-SCHOOL-OF-THOUGHT699) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS CONCEPT701) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PRINCIPIAL-ENTITY703) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SUPERNATURAL-ENTITY705) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS GOD707) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DISTINCTION709) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DICHOTOMY711) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PROBLEM-AREA713) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS FIELD-OF-STUDY715) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS GENERIC-FIELD-OF-STUDY717) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS HUMANISTIC-DISCIPLINE719) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SCIENTIFIC-DISCIPLINE721) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS BRANCH-OF-PHILOSOPHY723) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PROBLEM725) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS EXISTENCE-PROBLEM727) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS EXISTENCE-AS-CONCRETE-PROBLEM729) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS EXISTENCE-AS-ABSTRACT-PROBLEM731) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEFINITORY-PROBLEM733) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEFINITORY-PROBLEM-ESSENCE735) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEFINITORY-PROBLEM-ATTRIBUTE737) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS COMPOSITION-PROBLEM739) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS FUNCTIONAL-PROBLEM741) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PURPOSE-PROBLEM743) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS RELATIONAL-PROBLEM745) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEPENDENCE-PROBLEM747) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEPENDENCE-CAUSE-PROBLEM749) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEPENDENCE-EFFECT-PROBLEM751) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS INDEPENDENCE-PROBLEM753) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS EQUALITY-PROBLEM755) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DIFFERENCE-PROBLEM757) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS MODALITY-PROBLEM759) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS NECESSITY-PROBLEM761) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS POSSIBILITY-PROLEM763) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS CONTINGENCY-PROBLEM765) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS IMPOSSIBILITY-PROBLEM767) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS FACTUAL-PROBLEM769) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ARGUMENT-STRUCTURE771) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ARGUMENT773) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS INDUCTIVE-ARGUMENT775) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEDUCTIVE-ARGUMENT777) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ABDUCTIVE-ARGUMENT779) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ARGUMENT-PART781) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ASSUMPTION783) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS HYPOTHESIS785) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS DEMONSTRATION787) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS CONCLUSION789) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS METHOD791) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ABSTRACT-METHOD793) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PRACTICAL-METHOD795) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS LOGICAL-MATHEMATICAL-METHOD797) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ALGORITHM799) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS RULE-OF-INFERENCE801) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS FALLACY803) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ARGUMENTATIVE-METHOD805) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS PRECEPT807) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS SCIENTIFIC-METHOD809) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS RHETORICAL-FIGURE811) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS MAXIME813) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS METAPHOR815) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS ANALOGY817) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS MYTH819) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS THOUGHT-EXPERIMENT821) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS EXAMPLE823) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+Warning: (DEFCLASS COUNTER-EXAMPLE825) defined more than once in /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/philosophical-idea.lisp.
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/-functions.lisp
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/-pathways.lisp
+;    Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm2/new.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/places-geography.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/actors-non-philosophers.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/actors-western-philosophers.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/actors-organizations.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/actors-west-otherphil-fromphiltree.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/informationobjects-witt-works.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/informationobjects-tractatus-text.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/informationobjects-tractatus-text-german.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/informationobjects-other-works.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-branches-of-phil.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-views.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-arguments.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-tractatus-concepts.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-problems.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-methods.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-dichotomies.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-doctrines.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/ideas-rhetorical-figures.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/events-my-tractatus-interpretation.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/events-phd-advisors.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/events-tractatus-concepts-interpretations.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-a.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-b.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-c.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-d.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-e.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-f.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-g.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-h.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-i.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-j.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-k.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-l.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-m.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-n.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-o.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-p.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-q.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-r.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-s.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-t.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-u.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-v.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-w.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-x.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-y.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-pubs-z.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-a.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-b.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-c.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-d.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-e.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-f.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-g.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-h.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-i.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-j.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-k.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-l.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-m.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-n.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-o.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-p.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-q.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-r.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-s.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-t.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-u.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-v.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-w.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-x.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-y.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/metaencyc-interpretations-z.lisp
+;   Loading text file /homes/mp4239/PhiloSURFical/ocml-my-library/domains/philosurfical-crm-kb2/new.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/server-settings.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-navigation-bar.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-header-footer.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-help.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-popup.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-tab0.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-tab1.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-tab2.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-tab3.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/component-tab4.lisp
+;  Loading text file /homes/mp4239/PhiloSURFical/philosurfical2/page-generation/main-page.lisp
+
+
+
+ ******* The main pages of the website are also loaded! ******* 
+
+;; Creating system MY-SYSTEM
+
+;  Loading fasl file /homes/mp4239/PhiloSURFical/philosurfical2/start-up-functions.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/philosurfical2/functions/support-functions.ufasl
+;  Loading fasl file /homes/mp4239/PhiloSURFical/philosurfical2/functions/system-functions.ufasl
+#P"/homes/mp4239/PhiloSURFical/load3.lisp"
+
+CL-USER 4 > NIL
+NIL
+
+CL-USER 5 > (#<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008F2B2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008F9EA> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008F5F2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008F76A> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008F60A> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008FB12> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 20090102> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008FB2A> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008FE82> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008FB42> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2008FC02> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A8972> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 20090382> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A86F2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2009039A> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A8472> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200903B2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A81F2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200903CA> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A7F72> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200903E2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A7CF2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200903FA> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A7A72> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 20090412> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A77F2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2009042A> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A7572> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 20090442> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 200A72F2> #<Closure (CREATE-PREFIX-DISPATCHER . 1) 2009045A> #<Function DEFAULT-DISPATCHER 21B64FCA>)
+NIL
+
+CL-USER 6 > #<HUNCHENTOOT::SERVER 200A3603>
+NIL
+
+CL-USER 7 > 
+;; End-of-file in top-level, killing default listener process
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"serve-static: file="img/help.jpg"
+
+erve-static: file="img/help0.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"serve-static: file="img/buttons/expand.gif"
+
+erve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"serve-static: file="img/logo-small.jpg"
+
+erve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/busy.gif"serve-static: file="img/buttons/expand.gif"
+
+erve-static: file="img/busy.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+
+erve-static: file="img/equiv.gif"serve-static: file="img/hook.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/busy.gif"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"serve-static: file="img/tree/tv-expandable.gif"serve-static: file="img/tree/tv-collapsable-last.gif"
+
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-collapsable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/tabber.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"serve-static: file="img/tree/tv-item-last.gif"
+
+erve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/help.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/cohere.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="css/style-18-10.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/busy.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-collapsable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="lib/cohere.jar"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="lib/prefuse.jar"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="lib/plugin.jar"
+serve-static: file="lib/plugin.jar"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable-last.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-item.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"serve-static: file="img/buttons/expand.gif"
+
+erve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+
+erve-static: file="img/logo-small
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"
+serve-static: file="img/buttons/expand.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/hook.gif"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"
+serve-static: file="css/style-18-10.css"
+serve-static: file="css/tabber.css"
+serve-static: file="css/jqmodal.css"
+serve-static: file="css/superfish.css"
+serve-static: file="css/toggle-elements.css"
+serve-static: file="css/cluetip.css"
+serve-static: file="js/jquery.pack.js"
+serve-static: file="js/jquery.treeview.js"
+serve-static: file="js/jquery.history.pack.js"
+serve-static: file="js/tabber.js"
+serve-static: file="js/jquery.toggle-elements.js"
+serve-static: file="js/superfish.js"
+serve-static: file="js/jqmodal-r9.js"
+serve-static: file="js/jquery.dimensions.js"
+serve-static: file="js/jquery.cluetip.js"
+serve-static: file="js/philosurfical.js"
+serve-static: file="img/surfer.jpg"
+serve-static: file="img/help0.jpg"
+serve-static: file="img/help.jpg"
+serve-static: file="img/busy.gif"serve-static: file="img/buttons/expand.gif"
+
+erve-static: file="img/busy.gif"
+serve-static: file="img/logo-small.jpg"
+serve-static: file="img/equiv.gif"
+serve-static: file="img/hook.gif"
+serve-static: file="img/tree/tv-expandable.gif"
+serve-static: file="img/tree/tv-item-last.gif"

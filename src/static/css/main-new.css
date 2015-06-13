@@ -1,0 +1,339 @@
+/* main stuff */
+
+
+html, body {height:100%; margin: 0; padding: 0; }
+
+		html { overflow-y: scroll; } /* Turn on scroll bar */
+		html>body {
+			font-size: 16px; 
+			font-size: 68.75%;
+		} /* Reset Base Font Size */
+		
+		body {
+			font-family: Verdana, helvetica, arial, sans-serif;
+			font-size: 68.75%;
+			background: #fff;
+			color: #333;
+			padding-left: 10px;
+		} /* Reset Font Size */
+	
+		table {
+			border-collapse: collapse;
+			empty-cells: show;			
+		}
+		
+		td, th {
+			border: 1px solid;
+			padding: 4px;
+			font-size: 1em;
+		}
+		
+		p { 
+			font-size: 1.2em; 
+			line-height: 1.5em;
+		}
+		
+		a {
+  			text-decoration: none;
+  			border: none;
+		}
+
+		a:hover {
+  			text-decoration: none;
+  			font-size: 11px;
+		}
+
+		img {
+  			border-color: #000000;
+		}
+
+		img.summary {
+  			border: none;
+  			float: right;
+		}
+
+
+/* main section layout */
+
+#main_header {
+  position: relative;
+  height: 74px;
+  border-bottom: 1px solid #789ABD;
+}
+
+
+#main_body {
+  position: relative;
+}
+
+#main_footer {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+#main_nav {
+  position: relative;
+  height: auto;
+ }
+
+#presentation-nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 10px;
+  width: 990px;
+  }
+
+
+
+
+
+/* header section */
+	
+	#header_top_left {
+	  position: absolute;
+	  top: 0px;
+	  left: 0px;
+	  height: 84px;
+	  width: 50%;
+	}
+	
+	
+	#header_top_right {
+	  position: absolute;
+	  top: 10px;
+	  left: 99%;
+	  height: 84px;
+	  width: 95%;
+	  text-align: right;
+	}
+	div.header_top_item {
+	  padding: 10px;
+	}
+	#header_tool_name_1 {
+	  font: bold 30px Arial;
+	  color: #999999;
+	}
+	#header_tool_name_2 {
+	  font: bold 20px Arial;
+	  color: #666666;
+	}
+	#header_user_name {
+	  font-weight: bold;
+	  color: #999999;
+	}
+	#logout {
+	  font-weight: normal;
+	  color: #999999;
+	}
+
+
+
+/* content section  ... done by mikele */
+
+	#content {
+	  position: relative;
+	  }
+	
+	
+	#content_left_navigation {
+	  position: relative;
+	  vertical-align: top;
+	  top: 5px;
+	  left: 1px;
+	 /* height: 84px;*/
+	  width: 18%;
+	  height: 500px;
+	  border: 1px solid #DDDDDD;
+	  padding: 10px;
+	  overflow: auto;
+	}
+	
+	
+	#content_right {
+	  position: absolute;
+	  top: 10px;
+	  left: 23%;
+	/*  height: 84px; */
+	  width: 74%;
+	  height: 400px;
+	  text-align: left;
+	  overflow: auto;
+	}
+	
+	/* metadata box  ... working on it */
+	
+	#content_metadata {
+	  position: absolute;
+	  bottom: -4px;
+	  left: 23%;
+	/*  height: 84px; */
+	  width: 73%;
+	  height: 95px;
+	  border: 1px solid #FF3333;
+	  padding: 2px 3px 5px 8px;    /* top right bottom left */
+	  text-align: left;
+	  overflow: auto;
+	}
+
+
+
+	
+
+/* footer section */
+
+	
+	#footer_content {
+	  position: relative;
+	  height: 20px;
+	  border-top: 2px solid #789ABD;
+	}
+	
+	#footer_text {
+	  font-size: 10px;
+	}
+	
+	#footer_img {
+	   position: absolute;
+	  right: 20px;
+	}
+	
+	a.footer {
+	  color: #4BA5FF;
+	}
+	
+	a.footer:hover {
+	  color: #000000;
+	}
+	
+	
+
+
+
+
+
+	/* treeview stuff... fixed thanks to alex */
+
+
+		#content_left_navigation .treeview, .treeview ul { 
+	
+			padding: 0;
+	
+			margin: 0;
+	
+			list-style: none;
+	
+		}	
+	
+	
+	
+		#content_left_navigation .treeview li { 
+	
+			position: relative;
+	
+			margin: 0;
+	
+			padding: 4px 0 3px 20px;
+	
+			z-index: 10;
+	
+		}
+	
+	
+	
+		#content_left_navigation .treeview li { background: url(/static/img/tree/tv-item.gif) 0 0 no-repeat; }
+	
+		#content_left_navigation .treeview .collapsable { background-image: url(/static/img/tree/tv-collapsable.gif); }
+	
+		#content_left_navigation .treeview .expandable { background-image: url(/static/img/tree/tv-expandable.gif); }
+	
+		#content_left_navigation .treeview .last { background-image: url(/static/img/tree/tv-item-last.gif); }
+	
+		#content_left_navigation .treeview .lastCollapsable { background-image: url(/static/img/tree/tv-collapsable-last.gif); }
+	
+		#content_left_navigation .treeview .lastExpandable { background-image: url(/static/img/tree/tv-expandable-last.gif); }
+		
+		#treecontrol { margin: 1em 0; }
+	
+
+
+
+
+
+
+/*Tabs - important styles to ensure accessibility in print*/
+
+	
+	@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+		.tabs-hide {
+			display: none;
+		}
+	}
+	@media print {
+		.anchors {
+			display: none;
+		}
+	}
+
+
+
+/*
+Tabs - not important for accessibility, just for the look of it...
+*/
+		
+		#content_right .anchors {
+			list-style: none;
+			margin: 0;
+			padding: 0 0 1px;
+		}
+		#content_right .anchors:after { /* clearing without presentational markup, IE gets extra treatment */
+			display: block;
+			clear: both;
+			content: " ";
+		}
+		 #content_right .anchors li {
+			float: left;
+			margin: 0 1px 0 0;
+		}
+		 #content_right .anchors a {
+			display: block;
+			position: relative;
+			top: 1px;
+			border: 1px solid #eaeaea;
+			border-bottom: 0;
+			z-index: 2;
+			padding: 2px 9px 1px;
+			color: #000;
+			text-decoration: none;
+		}
+		#content_right .anchors .tabs-selected a {
+			padding-bottom: 2px;
+			font-weight: bold;
+		}
+		#content_right .anchors .tabs-selected a, .anchors a:hover, .anchors a:focus, .anchors a:active,
+		.fragment {
+			background: #eaeaea;
+		}
+		#content_right .anchors .tabs-selected a:link, .anchors .tabs-selected a:visited,
+		#content_right .anchors .tabs-disabled a:link, .anchors .tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+			cursor: text;
+		}
+		#content_right .anchors a:hover, .anchors a:focus, .anchors a:active {
+			cursor: pointer;
+		}
+		#content_right .anchors .tabs-disabled {
+			opacity: .4;
+		}
+		#content_right .anchors .tabs-disabled a:hover, .anchors .tabs-disabled a:focus, .anchors .tabs-disabled a:active {
+			background: transparent;
+		}
+		#content_right .fragment {
+			padding: 0 10px;
+		}
+		#content_right .anchors .tabs-selected .tabs-loading {
+			padding-left: 25px;
+			background-image: url(loading.gif);
+			background-position: 4px 50%;
+			background-repeat: no-repeat;
+		}

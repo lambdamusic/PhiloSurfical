@@ -1,0 +1,63 @@
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:NS0='http://img.cs.man.ac.uk/oil/oiled#'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+  xmlns:NS1='http://www.daml.org/2001/03/daml+oil#'
+  xmlns:NS2='file:/C:/Research Software/OilEd/ontologies/meta-mam-mri-con-subp.daml#'
+  xmlns:NS3='http://purl.org/dc/elements/1.1/'
+ >
+
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_patient'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Patient'/>
+	<NS2:has_age>81</NS2:has_age>
+	<NS2:involved_in_ta rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#ta-soton-1064317738100'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_mammography'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Mammography'/>
+	<NS2:carried_out_on rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_patient'/>
+	<NS2:has_data>27 5 1993</NS2:has_data>
+	<NS2:produce_result rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_left_cc'/>
+	<NS2:produce_result rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_left_mlo'/>
+	<NS2:produce_result rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_right_cc'/>
+	<NS2:produce_result rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_right_mlo'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#ta-soton-1064317738100'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Triple_Assessment_Proc'/>
+	<NS2:involve_patient rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_patient'/>
+	<NS2:consists_of_subproc rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_mammography'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_right_cc'>
+	<NS2:image_file>cancer/case1058/A_1058_1.RIGHT_CC.LJPEG</NS2:image_file>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Mammo_Image'/>
+	<NS2:has_lateral rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#lateral_right'/>
+	<NS2:view_of_image rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#craniocaudal_view'/>
+	<NS2:contains_entity rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_right_cc_abnor_1'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#mass_10581_right_cc_abnor_1'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Mass'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_right_cc_abnor_1'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Abnormality'/>
+	<NS2:is_finding rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#mass_10581_right_cc_abnor_1'/>
+	<NS2:is_finding rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#af_architectural_distortion'/>
+	<NS2:has_morph_feature rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#margin_mammo_spiculated'/>
+	<NS2:has_overall_impression rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#assessment_definitely_malignant'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#image_10581_right_mlo'>
+	<NS2:image_file>cancer/case1058/A_1058_1.RIGHT_MLO.LJPEG</NS2:image_file>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Mammo_Image'/>
+	<NS2:has_lateral rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#lateral_right'/>
+	<NS2:view_of_image rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#oblique_mediolateral_view'/>
+	<NS2:contains_entity rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_right_mlo_abnor_1'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#mass_10581_right_mlo_abnor_1'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Mass'/>
+</rdf:Description>
+<rdf:Description rdf:about='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#10581_right_mlo_abnor_1'>
+	<rdf:type rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#Abnormality'/>
+	<NS2:is_finding rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#mass_10581_right_mlo_abnor_1'/>
+	<NS2:is_finding rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#af_architectural_distortion'/>
+	<NS2:has_morph_feature rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#margin_mammo_spiculated'/>
+	<NS2:has_overall_impression rdf:resource='file:/C:/Research Software/OilEd/ontologies/breast_cancer_imaging_ontology.daml#assessment_definitely_malignant'/>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1 @@
+;;; Mode: Lisp; Package: ocml(in-package "OCML");;;File generated at 19:10:24, on 5/6/2003(def-ontology RDFS:includes nil:do-not-include-base-ontology? t)

@@ -1,0 +1,605 @@
+/* 
++++++++++++++
+main tags */
+
+
+		html, body 
+			{
+			height:100%; 
+			margin: 5; 
+			padding: 0; 
+			}
+
+		html 
+			{ overflow-y: scroll; } /* Turn on scroll bar */
+		
+		
+		html>body 
+			{
+			font-size: 16px; 
+			font-size: 63%;
+			} /* Reset Base Font Size */
+		
+		body {
+			font-family: Verdana, helvetica, arial, sans-serif;
+		/*	font-size: 68.75%;  already defined */
+			background: #66FFFF;
+			color: #333;
+			padding-left: 10px;
+		} /* Reset Font Size */
+	
+
+		
+		p    /* note that maybe we could create a style for the content?!*/
+		{ 
+			font-size: 1.2em;   /* best is ... change!!!  1.6*/
+			line-height: 2em;  /* it was 1.5*/
+		}
+		
+		a 
+		{
+  			text-decoration: none;
+  			border: none;
+		}
+
+		a:hover 
+		{
+  			text-decoration: none;
+  			/*font-size: 11px;*/
+		}
+
+
+
+
+/*
+++++++++++++++++++++++
+main sections layout */
+
+#header {
+  position: relative;
+  height: 74px;
+  border-bottom: 1px solid #789ABD;
+}
+
+
+#body {
+  position: relative;
+}
+
+#footer {
+  position: relative;
+  margin-top: 20px;     /* this is set in relation to the contents heights (550) */
+}
+
+
+
+
+
+/* 
++++++++++++++++++++++
+header section */
+	
+	#header_top_left {
+	  position: absolute;
+	  top: 0px;
+	  left: 0px;
+	  height: 84px;
+	  width: 60%;
+	}
+	
+	
+	#header_top_right {
+	  position: absolute;
+	  top: 10px;
+	  left: 70%;
+	  height: 84px;
+	  width: 95%;
+	  text-align: right;
+	}
+	div.header_top_item {
+	  padding: 10px;
+	}
+	#header_tool_name_1 {
+	  font: bold 30px Arial;
+	  color: #6600FF;
+	}
+	#header_tool_name_2 {
+	  font: bold 20px Arial;
+	  color: #3300FF;
+	}
+	
+  /*	this last two are not used for now, but very likely in the future*/
+	
+	#header_user_name {
+	  font-weight: bold;
+	  color: #999999;
+	}
+	#logout {
+	  font-weight: normal;
+	  color: #999999;
+	}
+
+
+
+
+/* body section  */
+
+
+	
+	#content_left_navigation {
+	  position: relative;
+	  vertical-align: top;
+	  top: 10px;
+	  left: 1px;
+	 /* height: 84px;*/
+	  width: 20%;
+	  height: 550px;
+	  border: 1px solid #DDDDDD;
+	  padding: 10px;
+	  overflow: auto;
+	}
+	
+	
+	#content_middle {
+	  position: absolute;
+	  vertical-align: top;
+	  top: 10px;
+	  left: 23%;
+	  width: 75%;
+	  height: 550px;
+	  text-align: left;
+	  overflow: hidden;
+	}
+	
+
+
+
+
+/*
++++++++++++++++
+content section (the text)
+*/
+
+	#content_middle b {   /* this refers to the propositions' numbers*/
+	  font: bold 18px Arial;
+	  color: #999999;
+	   line-height: 2;
+	}
+
+	#content_middle p {        /* this refers to the propositions */
+	  font: 15px Arial;
+	  color: #333;
+	  line-height: 1.5;
+	}
+
+
+
+/*
++++++++++++++++
+TAB1
+*/
+
+
+#desc_container { 
+  font:100% verdana,arial,sans-serif;
+  padding: 25pt;
+  min-width: 500px;
+  max-width: 700px;
+  width: 700px; 
+}
+
+
+	#desc_container .main_info  {
+	  border-color: #6600FF;
+  	border-width: 1px;
+  	border-style: solid;
+  	padding: 10px;        /* padding in fieldset support spotty in IE */
+  	margin: 10;
+	
+	}
+
+
+	#desc_container .slots  {
+	border-color: #6600FF;
+  	border-width: 1px;
+  	border-style: solid;
+  	padding: 10px;        /* padding in fieldset support spotty in IE */
+  	margin: 10;
+	
+	}
+
+
+
+	#desc_container li  {
+
+ color:blue;
+  font-size: 16px;
+    padding: 4px;        /* padding in fieldset support spotty in IE */
+}
+
+
+
+
+
+	#desc_container .value  {
+
+  color:Navy;
+    font-size: 14px;
+}
+
+
+
+
+
+/*
++++++++++++++++
+TAB2
+*/
+
+
+  #instances_container { 
+  font:100% verdana,arial,sans-serif;
+  padding: 5pt;
+  width: 850px; 
+}
+
+
+	#instances_container .instance_cloud  {
+	border-color: #6600FF;
+  	border-width: 1px;
+  	border-style: solid;
+  	padding: 13px;        /* padding in fieldset support spotty in IE */
+  	margin: 10px;
+  	width: 800px; 
+  	font-size: 13px;
+  	line-height: 1.5;
+	
+	}
+
+
+	#instances_container .instance_cloud  A:hover {
+	 cursor: crosshair; 
+	 color: #FFCC00; 
+	 background-color: #0000CC; 
+	 text-decoration: none
+	}
+	
+
+	#instances_container .instance_box  {
+	border-color: #CC0000;
+  	border-width: 2px;
+  	border-style: dashed;
+  	padding: 10px;        /* padding in fieldset support spotty in IE */
+  	margin: 20;
+  	width: 600px;
+  	margin-left: 50px;
+  	margin-top: 25px;
+	
+	}
+
+
+	#instances_container .instance_box b  {
+
+    color:red;
+    font-size: 16px;
+    padding: 4px;        /* padding in fieldset support spotty in IE */
+}
+
+
+	#instances_container .instance_box li  {
+
+    color:blue;
+    list-style: square inside;
+    font-size: 12px;
+    padding: 4px;        /* padding in fieldset support spotty in IE */
+}
+
+
+
+	#instances_container .instance_box .value  {
+
+  color:Navy;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
++++++++++++++++++
+TAB3 - form section */
+
+
+
+#content_middle form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 350px; 
+	padding: 0; 
+	margin: 10px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+}
+
+
+#content_middle form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 5pt;
+  min-width: 500px;
+  max-width: 900px;
+  width: 870px; 
+}
+
+#content_middle br {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 5pt;
+
+}
+
+#content_middle form fieldset {
+  / * clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+  border-color: #000;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+}
+
+
+
+#content_middle form fieldset legend {
+	font-size:1.5em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                       /* be careful with padding, it'll shift the nice offset on top of border  */
+}
+
+
+
+
+#content_middle form br {
+	clear:left;
+}
+
+
+#content_middle form input {
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	padding: 0; 
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+
+#content_middle form select {
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	padding: 0; 
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+ #content_middle .submit input
+{
+margin-left: 1.5em;
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9;
+} 
+
+
+
+
+
+
+/* 
++++++++++++++++++
+footer section */
+
+	
+	#footer_content {
+	  position: relative;
+	  height: 20px;
+	  border-top: 2px solid #789ABD;
+	}
+	
+	#footer_text {
+	  font-size: 10px;
+	}
+	
+	#footer_img {
+	   position: absolute;
+	  right: 20px;
+	}
+	
+	a.footer {
+	  color: #4BA5FF;
+	}
+	
+	a.footer:hover {
+	  color: #000000;
+	}
+	
+	
+	
+	
+
+
+
+
+
+
+/* treeview stuff... 
+++++++++++++++++++++++++
++++++++++++++++++++++++++
++++++++++++++++++++++++++
+fixed thanks to alex   */
+
+
+		#content_left_navigation .treeview, .treeview ul { 
+	
+			padding: 0;
+	
+			margin: 0;
+	
+			list-style: none;
+	
+		}	
+	
+	
+	
+		#content_left_navigation .treeview li { 
+	
+			position: relative;
+	
+			margin: 0;
+	
+			padding: 4px 0 3px 20px;
+	
+			z-index: 10;
+	
+		}
+	
+	
+	
+		#content_left_navigation .treeview li { background: url(../img/tree/tv-item.gif) 0 0 no-repeat; }
+	
+		#content_left_navigation .treeview .collapsable { background-image: url(../img/tree/tv-collapsable.gif); }
+	
+		#content_left_navigation .treeview .expandable { background-image: url(../img/tree/tv-expandable.gif); }
+	
+		#content_left_navigation .treeview .last { background-image: url(../img/tree/tv-item-last.gif); }
+	
+		#content_left_navigation .treeview .lastCollapsable { background-image: url(../img/tree/tv-collapsable-last.gif); }
+	
+		#content_left_navigation .treeview .lastExpandable { background-image: url(../img/tree/tv-expandable-last.gif); }
+		
+		#treecontrol { margin: 1em 0; }
+	
+
+
+
+
+
+
+
+/*  TABBERLIVE stuff
++++++++++++++++++++++++
+$Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:0.2em; /*  it was 1*/
+ }
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 5pt;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 1;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #33CCFF;
+ border-color: #227;
+
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #3366FF;  
+ border-top: 1px solid #777788;
+ border-bottom: 1px solid #3366FF;
+  font-size: 16px;
+  color: #FFFF00;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #FFFF00;
+ background: #3366FF;
+  border-top: 1px solid #777788;
+ border-bottom: 1px solid #3366FF;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /*  */
+
+height:515px;
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /*  */
+ overflow:auto;
+}
+
+/* If desired, hide the heading since a heading is provided by the tab 
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+*/
+
+
